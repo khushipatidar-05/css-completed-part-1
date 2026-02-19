@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap');
+@font-face {
+  font-family:"patidarfont" ;
+  src:url("fonts/Valentina Orchestra.ttf") format("openType");
+}
+body{
+     background-color: hsl(0, 0%, 94%);  
+     display: grid;
+     place-items: center; 
+}
+.Hero-section{
+    width: 50%;
+} 
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family:"Urbanist", sans-serif;
+  font-family:"patidarfont", "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style:italic ;
+  font-size: 54px;
+  font-variant: small-caps;
+}
+p{
+   font-family: "Urbanist", sans-serif;
+   font-size: 36px;
+   font-weight: 300;
+}
+a{
+  font-family: "Urbanist", sans-serif;
+   font-size: 20px;
+}

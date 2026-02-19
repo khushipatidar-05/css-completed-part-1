@@ -1,0 +1,103 @@
+  :root {
+    --timepass-color:#fff;
+    --background-color: black;
+  }
+ body{
+   background-color: var(--background-color);
+   color: var(--timepass-color);
+   height: 100vh;
+ }
+.container{
+ height: 100vh;
+ max-width: 1320px;
+ padding:64px 0;
+ margin: 0 auto;
+ display: grid;
+ align-items: center;
+}
+.grid{
+   display: grid;
+ align-items: center;
+ gap: 64px;
+}
+.grid-two-column{
+ grid-template-columns: repeat(2 , 1fr);
+}
+/* .hero-Content h1{
+    font-size: 48px;
+    text-align: left;
+    position: relative;
+    display: inline-block;
+} */
+.hero-Content h1::after{
+    content: "";
+    position:absolute;
+    border: 4px solid #ae445a;
+    width: 50%;
+    right: 0;
+    bottom: 0;
+}
+.hero-Content h1::before{
+    /* content: "\f121";
+    font-family: font awesome 6 free; */
+    content: "khushi Patidar";
+    position:absolute;
+    top: -20px;
+    font-size: 14px;
+    letter-spacing: 5px;
+    color:#ffcc70 ;
+    
+}
+/* .hero-Content p{
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin: 20px 0px 40px 0px ;
+} */
+img{
+    max-width: 80%;
+    height: auto;
+    background-color: var(--background-color);
+}
+ .hero-Content a{
+    background-color: var(--background-color);
+    border: 5px solid var(--timepass-color) ;
+    display: inline-block;
+    padding: 12px 32px;
+    text-decoration: none;
+    border-radius: 05px;
+    font-size: 24px;
+    font-weight: bold;
+    border: 5px solid  var(--timepass-color);
+    width: 200px; 
+    text-align: center;
+}
+a{
+  color: var(--timepass-color);
+  background-color:yellowgreen !important;
+}
+/* h1{
+
+    /* border-top:5px solid red;
+    border-bottom: 5px solid red; */
+    /* border-left: 5px solid yellow;
+    border-right: 5px solid yellow; */
+    /* border-inline: 5px solid yellow; */
+    /* border-block: 5px Solid red; */
+.hero-Content {
+    & h1{
+    font-size: 54px;
+    /* writing-mode: vertical-lr;  new feature 74% support h abhii */
+    text-align: left;
+    position: relative;
+    display: inline-block;
+    border-block: 5px Solid red ;
+    /* &::before{
+      content:"*";
+    } */
+}
+& p{
+ font-size:18px;
+  letter-spacing: 1px;
+  margin: 20px 0px 40px 0px ;
+}
+}

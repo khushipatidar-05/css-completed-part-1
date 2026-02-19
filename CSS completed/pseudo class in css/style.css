@@ -1,0 +1,80 @@
+ body{
+ color: azure;
+ height: 100vh;
+ } 
+ .hero-section{
+ background-color: #080a0c;
+ }
+ img{
+    max-width: 80%;
+    height: auto;
+}
+ .container{
+   height: 100vh;
+   max-width: 1320px;
+   padding: 64px 0;
+   margin: 0 auto;
+   display: grid;
+   align-items: center;
+ }
+ .hero-Content  a:link{
+  color: rgb (10, 10, 10);
+ }
+ .hero-Content  a:visited{
+  color: #d67e03;
+ }
+ .hero-Content  a:hover{
+   color: #0062ff;
+ }
+ .hero-Content a:active{
+  color: #f13559;
+ }
+ .Content-1 li:nth-of-type(2){
+   color: red;
+ }
+ .Content-1 li:first-of-type{
+   color: red;
+ }
+ .Content-1 li:last-of-type{
+   color: red;
+ }
+ /* thoda tricky h phele ye check krega ki li content-1 ka second child h agr vo second child huaa to hi color krega  */
+ .Content-1 li:nth-child(2){
+   color: green;
+ }
+  .Content-1 p:last-child{
+   color: blue;
+ }
+ .P-Class:first-of-type{
+     color: #d67e03;
+ }
+
+ /* -------new css feature pseudo classes --------------- */
+
+ .Content-1{
+    /* ul li h1,
+    ol li h1,
+    dl li h1{
+      color :red
+    } */
+
+    /* use is  */
+    :is(ul,ol,dl) li h1 {
+      color: blue;
+    }
+ }
+ .Parent label{
+  font-size: 45px;
+ }
+ /* --------------------use has--------------- */
+ .Parent:has([type="checkbox"]:checked) label{
+  color: red;
+ }
+ input[type="checkbox"] {
+  accent-color: green;
+   width: 40px;
+   aspect-ratio: 1;
+ }
+ .color-not :not(p:first-child){
+   color:pink;
+ }

@@ -1,0 +1,34 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+.Content-1{
+    text-align: center;
+}
+.Content-1 ul p {
+    font-weight: bold;
+    color: red;
+}
+/* distance between  section-elemnt and Container is known as descendant */
+.section-element  .Container{
+    padding-bottom: 100px;
+}
+
+/* child selecter mtlb jo uska child h uska color blue ho bus child secter denoted > */
+.Content-1 ul li {
+    color: green; 
+    /* li jo nhii ul ke andr thii sb green ho gye  */
+}
+/* child li jo child h uska color blue */
+.Content-1 > ul > li{
+    color: blue;
+}
+/* adjacent sibling + denoted */
+.Content-1 ul p + li{
+    color: burlywood ;
+}
+/* general sibling selector ~ */
+.Content-1 ul p ~ li{
+    color: pink;
+}

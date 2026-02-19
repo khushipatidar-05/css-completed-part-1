@@ -1,0 +1,13 @@
+.Section-Border{
+   color: #fff;
+   border: 15px solid #051937;
+   background-color: #004d7a;
+}
+div{
+    width: 500px;
+    height: 500px;
+    background-color: #5e9de5;
+    /* border-radius: 50%; // circle */
+    border-radius: 100% 0% 100% 0% ;
+    background-image: linear-gradient( to right top,#051937,#004d7a,#008793,#00bf72,#a8eb12);
+}

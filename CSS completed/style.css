@@ -1,0 +1,112 @@
+
+#btn{
+    background-color:#ff3368 ;
+    color:#fff;
+}
+#btn:hover{
+    background-color:green ;
+    color: #ffffff;
+}
+h1:hover{
+    color: #1a73e8;
+}
+p:hover{
+    color:#dc3545 ;
+}
+.hero-section{
+    color: palevioletred;
+}
+.para{
+ color:071962;
+}
+/* ye ek transparent proporty h color ki h1 hide ho jata h */
+
+/* h1{
+    color: transparent;
+} */
+ .hero-section
+ {
+   color: palevioletred;
+ }
+ /* current color property h hero section ka color isme bhii aaja ye ga  */
+
+ /* .para{
+    color:currentColor;
+ } */
+ body{
+ width: 100%;
+ height: 100vh;
+ background-color: hsl(0 ,0%, 94%);
+ /* background-repeat- none krna h  jata tr */
+ /*  background-size 100% 100% ye jata achaa hota h puri screen ke liye as compare to proerty like cover , content etc */
+}
+.h1{
+    font-size: 64px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 2px 2px 5px #000;
+}
+.p{
+    font-size: 62px;
+    color:#ffffff; 
+} 
+.Section-1{
+        width: 100%;
+        height: 100vh; 
+        display: grid;
+        place-items: center;
+        text-align: center;
+        background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url("images/1at ai img.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-attachment: fixed;
+}
+.section-2{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-image:
+    linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+    url("images/2ndimg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-attachment: fixed;
+    /* background-color: black; */
+}
+.section-3{
+      width: 100%;
+        height: 100vh; 
+        display: grid;
+        place-items: center;
+        text-align: center;
+        background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url("images/3\ rd\ Ai\ img.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-attachment: fixed;
+}
+.section-4{
+        width: 100%;
+        height: 100vh; 
+        display: grid;
+        place-items: center;
+        text-align: center;
+        background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url("images/4th\ img.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-attachment: fixed;
+}
+.section-5 {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url("/images/5th Ai img.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;      /* fill full width + height, aspect ratio maintain */
+    background-position: center;    /* horizontal + vertical center */
+    background-attachment: fixed;   
+}
